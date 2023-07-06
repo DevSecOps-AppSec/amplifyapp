@@ -28,7 +28,7 @@ const App = () => {
     <div>
       <Header />
       <div className="container">
-        <h1>Contact Form XSS</h1>
+        <h1>XSS Contact Form </h1>
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
