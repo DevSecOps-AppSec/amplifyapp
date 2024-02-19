@@ -1,0 +1,10 @@
+name: Workflow for SAST & SCA
+on: push
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Run Dastardly Action Step
+       uses: PortSwigger/dastardly-github-action@main
+       with:
+         target-url: 'https://ginandjuice.shop'
