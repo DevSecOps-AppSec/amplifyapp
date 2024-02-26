@@ -18,4 +18,7 @@ jobs:
         run: snyk code test --all-projects
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      - name: get code 
+        run: | 
+          ls
       
