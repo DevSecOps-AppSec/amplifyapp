@@ -15,8 +15,7 @@ jobs:
       - uses: snyk/actions/setup@master
       - name: Snyk Code Test
         continue-on-error: true
-        run: snyk code test 
+        run: snyk code test --all-projects
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      - name: Get JSON data
-        run: cat snykResult.json
+      
