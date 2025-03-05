@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Change this to "maven", "gradle", "gomod", etc., as needed
+    directory: "/" # Root directory of your project
+    schedule:
+      interval: "weekly" # Change this to "daily" or "monthly" as required
+    open-pull-requests-limit: 10
+    versioning-strategy: "increase-if-necessary" # Only bump if necessary
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"] # Ignores major version updates
