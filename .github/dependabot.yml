@@ -1,10 +1,13 @@
 version: 2
 updates:
-  - package-ecosystem: "npm" # Change this to "maven", "gradle", "gomod", etc., as needed
-    directory: "/" # Root directory of your project
+  - package-ecosystem: "npm"
+    directory: "/"  # Adjust if your package.json is in a subdirectory
     schedule:
-      interval: "weekly" # Change this to "daily" or "monthly" as required
-    open-pull-requests-limit: 10
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"] # Ignores major version updates
+      interval: "weekly"
+    allow:
+      - dependency-type: "all"
+        update-type: "version-update:semver-minor"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore"
+      include: "scope"
