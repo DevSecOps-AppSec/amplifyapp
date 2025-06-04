@@ -5,8 +5,7 @@ updates:
     schedule:
       interval: "weekly"
     allow:
-      - dependency-type: "all"
-        update-type: "version-update:semver-minor"
+      - update-type: "version-update:semver-minor"
     open-pull-requests-limit: 5
     commit-message:
       prefix: "chore"
