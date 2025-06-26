@@ -5,6 +5,8 @@ updates:
     schedule:
       interval: "daily" # Change this to "daily" or "monthly" as required
     open-pull-requests-limit: 4
+    allow:
+      - dependency-type: "direct"
     security-updates: true
     ignore:
       - dependency-name: "*"
