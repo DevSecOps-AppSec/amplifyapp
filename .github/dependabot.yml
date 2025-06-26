@@ -5,6 +5,7 @@ updates:
     schedule:
       interval: "daily" # Change this to "daily" or "monthly" as required
     open-pull-requests-limit: 4
+    security-updates: true
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"] # Ignores major version updates
