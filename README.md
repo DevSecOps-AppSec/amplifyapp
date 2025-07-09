@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 <img alt="gitleaks badge" src="https://img.shields.io/badge/protected%20by-gitleaks-blue">
+
+[![Dependabot](https://img.shields.io/badge/Dependabot-active-success?logo=dependabot)](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
