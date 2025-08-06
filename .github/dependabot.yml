@@ -4,7 +4,6 @@ updates:
     directory: "/" # Root directory of your project
     schedule:
       interval: "daily" # Change this to "daily" or "monthly" as required
-    security-updates-only: true
     open-pull-requests-limit: 4
     ignore:
       - dependency-name: "*"
