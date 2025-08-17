@@ -67,7 +67,7 @@ const App = () => {
         {submittedData && (
           <div className="submitted-data">
             <h2>Submitted Data:</h2>
-            <p><strong>Name:</strong> {submittedData.name}</p>
+            <p><strong>Name:</strong> dangerouslySetInnerHTML={{ __html: submittedData.name }}</p>
             <p><strong>Email:</strong> {submittedData.email}</p>
             <p>
               <strong>Description:</strong>{" "}
@@ -83,3 +83,4 @@ const App = () => {
 };
 
 export default App;
+
