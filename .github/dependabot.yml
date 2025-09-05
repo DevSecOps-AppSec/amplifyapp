@@ -4,12 +4,7 @@ updates:
     directory: "/" # Root directory of your project
     schedule:
       interval: "daily" # Change this to "daily" or "monthly" as required
-    open-pull-requests-limit: 4
-    groups:
-      security-updates:
-        pattern: ".*" # Groups all security updates into one PR
-        update-types:
-          - "security"
+    open-pull-requests-limit: 0
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"] # Ignores major version updates
