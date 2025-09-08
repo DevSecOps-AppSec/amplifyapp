@@ -4,10 +4,13 @@ updates:
     directory: "/" # Root directory of your project
     schedule:
       interval: "daily" # Change this to "daily" or "monthly" as required
-    open-pull-requests-limit: 0
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"] # Ignores major version updates
+    open-pull-requests-limit: 5
+    allow:
+      - dependency-type: "direct"
+        update-type: "security"
     commit-message:
       prefix: "chore"
       include: "scope"
+    labels:
+      - "dependabot-open"
+      - "dependencies"
