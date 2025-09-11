@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "andersonbratch.pre-commit-vscode"   
+    "elagil.pre-commit-helper"
   ],
   "unwantedRecommendations": []
 }
