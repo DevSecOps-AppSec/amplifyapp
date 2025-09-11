@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "andersonbratch.pre-commit-vscode"   // Pre-commit extension
+    "andersonbratch.pre-commit-vscode"   
   ],
   "unwantedRecommendations": []
 }
