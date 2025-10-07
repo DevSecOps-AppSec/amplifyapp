@@ -4,6 +4,7 @@ updates:
     directory: "/" # Root directory of your project
     schedule:
       interval: "daily" # Change this to "daily" or "monthly" as required
+    target-branch: "UAT"
     open-pull-requests-limit: 5
     allow:
       - dependency-type: "direct"
